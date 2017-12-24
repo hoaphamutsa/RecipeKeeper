@@ -19,6 +19,7 @@ public class RecipeKeeper extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+			// Initialize app
 			Constants constants = new Constants();
 			int[] MIN_SIZES = constants.getMinSizes();
 			
