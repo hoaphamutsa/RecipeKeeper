@@ -35,7 +35,7 @@ public class WriteData {
 	
 	public static void CreateRecipeFile(String recipeName, Recipe recipe) {
 		Path currentRelativePath = Paths.get("");
-		String path = currentRelativePath.toAbsolutePath().toString() + "/Recipes/";
+		String path = currentRelativePath.toAbsolutePath().toString() + "/src/model/Recipes/";
 		Path pPath = Paths.get(path);
 		if (!Files.exists(pPath))
 			try {
